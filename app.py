@@ -719,7 +719,7 @@ with st.sidebar:
 
     groq_model = st.text_input(
         "Groq model",
-        value="llama-3.3-70b-versatile",
+        value="openai/gpt-oss-20b",
         help="Use a currently available Groq chat model.",
     )
 
