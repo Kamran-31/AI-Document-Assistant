@@ -210,33 +210,9 @@ Documents changed?
       └── Yes → Rebuild index
 ```
 
-## Project structure
-
-```text
-advanced_rag_document_assistant/
-│
-├── app.py
-├── requirements.txt
-└── README.md
-```
-
 ## Installation
 
 Create a virtual environment:
-
-### Windows
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-### macOS / Linux
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
 
 Install dependencies:
 
@@ -413,20 +389,4 @@ For a production deployment, consider adding:
 - Background ingestion jobs
 - Persistent embedding cache
 - Rate-limit and error handling
-- File size/type security validation
-
-## Security
-
-Never put the Groq API key directly in `app.py`.
-
-Use Streamlit Secrets:
-
-```toml
-GROQ_API_KEY = "..."
-```
-
-Also avoid committing API keys to Git repositories.
-
-## License
-
-Add the license appropriate for your project before publishing or distributing the application.
+- File size/type security validity 
