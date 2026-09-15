@@ -15,13 +15,6 @@ Supported formats:
 - TXT
 - MD / Markdown
 
-Each format has a separate extraction function:
-
-- `extract_pdf()`
-- `extract_docx()`
-- `extract_txt()`
-- `extract_md()`
-
 The pipeline preserves:
 
 - Filename
